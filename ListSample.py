@@ -18,3 +18,27 @@ print(number_list.count(2))
 
 print(len(number_list))
 print(type(number_list))
+
+# from book Programming Python
+bob = ['Bob Smith', 42, 30000, 'software']
+sue = ['Sue Jones', 45, 50000, 'hardware']
+
+people = [bob, sue]
+
+# Modify list
+for person in people:
+    print(person[0].split()[-1])
+    person[2] *= 1.20
+
+for p in people: print(p[2])
+
+# collect all the pay
+pays = [person[2] for person in people]
+print(type(pays))
+print(pays)
+
+
+# Map function
+pays = map((lambda x: x[2]), people)
+total  = sum(pays)
+print(total)
