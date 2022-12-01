@@ -42,3 +42,7 @@ print(pays)
 pays = map((lambda x: x[2]), people)
 total  = sum(pays)
 print(total)
+
+NAME,AGE, PAY, JOB = range(4)
+print(bob[NAME])
+print(PAY, bob[PAY])

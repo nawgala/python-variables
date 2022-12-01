@@ -16,6 +16,12 @@ print(alphebet)
 
 for x in alphebet:
     print(alphebet[x])
+# x = 0
+# while alphebet:
+#     print(x)
+#     x += 1
+
+
 
 alphebet.setdefault('d', True)
 print(alphebet)

@@ -16,5 +16,14 @@ print(pays)
 print(sum(list(pays)))
 
 people.append(['Tom', 50, 0, None])
-print(len(people))
+# print(len(people)
+
+class Person:
+  name = "John"
+  age = 36
+  country = "Norway"
+
+print(dir(Person))
+
+
 
